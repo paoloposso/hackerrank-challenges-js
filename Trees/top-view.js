@@ -1,13 +1,3 @@
-/*
-    Node is defined as
-    var Node = function(data) {
-        this.data = data;
-        this.left = null;
-        this.right = null;
-    }
-*/
-
-
 function inOrder(root) {
     let result = [];
     inOrderRecur(root, result);
